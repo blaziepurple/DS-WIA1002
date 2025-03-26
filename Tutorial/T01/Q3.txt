@@ -1,0 +1,7 @@
+Output:
+a. AB
+
+Reason:
+The first object in the array creates an object with Class A. Class A inherits properties
+from class B. The toString() method in class A overrides the method in class B, making
+the first output "A". The second object creates an object with Class B, making its output "B".

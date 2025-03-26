@@ -1,0 +1,12 @@
+Output:
+(1) Perform Person's tasks
+(2) Invoke Employee's overloaded constructor
+(3) Performs Employee's tasks
+(4) Performs Faculty's tasks
+
+Reason:
+The class Faculty inherits the class Employee which inherits the class Person. It will
+execute the Person class, printing the first statement. The class Employee will then
+be executed, printing out the message in the overloaded constructor before printing out
+the constructor without arguments. Finally, the Faculty class will be executed, printing
+out the statement inside it.
