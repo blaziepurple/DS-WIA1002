@@ -1,0 +1,1 @@
+The compiler replaces all occurences of the type parameter with Object.

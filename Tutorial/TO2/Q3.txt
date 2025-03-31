@@ -1,0 +1,8 @@
+A raw type is a generic class or interface that has no specified concrete type/does not
+have a type parameter.
+
+A raw type is unsafe because it cannot carry out type checks, causing a runtime 
+error to occur.
+
+The raw type is allowed in Java because Generics did not exist before JDK 5.0 and 
+it exists for backwards compatibility and is mainly found in legacy code.

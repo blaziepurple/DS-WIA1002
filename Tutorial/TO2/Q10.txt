@@ -1,0 +1,1 @@
+The compiler replaces the type parameter with the upper bound of the type parameter.

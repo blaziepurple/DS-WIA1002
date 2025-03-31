@@ -1,0 +1,5 @@
+Erasure refers to when the compiler uses the generic-type information to compile
+the code and deletes it afterwards.
+
+Java generics implement erasure to ensure backwards compatibility with legacy code
+that uses raw types.
