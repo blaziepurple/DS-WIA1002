@@ -1,0 +1,11 @@
+a - Instance Variables:
+    i - Dispenser: int noOfItems, double cost
+    ii- CashRegister: double cashOnRegister
+    iii- CandyMachine: Dispenser candyDispenser, Dispenser chipsDispenser
+                       Dispenser gumDispenser, Dispenser cookiesDispenser,
+                       CashRegister register 
+
+b - Methods:
+    i - Dispenser: void dispense(), double getCost()
+    ii - CashRegister: double change()
+    iii - CandyMachine: void menu(), void selection()
