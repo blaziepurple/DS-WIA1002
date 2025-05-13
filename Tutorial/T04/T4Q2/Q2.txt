@@ -1,0 +1,15 @@
+a) contains
+
+b) 
+    public boolean contains(E e) {
+        Node<E> pointerB = head;
+
+        for (int i = 0; i < size - 1; i++) {
+            if (e.equals(pointerB.element)) {
+                return true;
+            }
+            pointerB = pointerB.next;
+        }
+
+        return false;
+    }
